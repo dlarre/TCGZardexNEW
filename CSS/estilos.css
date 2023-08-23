@@ -1,0 +1,28 @@
+header {
+  background-color: black;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  header h1 {
+    color: crimson;
+    text-align: left;
+    font-family: 'Bebas Neue', sans-serif;
+    font-style: oblique;
+    font-weight: 10;
+    background-color: black;
+    background-size: cover;
+    background-size: contain;
+    top: 0; }
+    header h1 span {
+      color: orangered;
+      font-size: 45px; }
+  header nav ul {
+    list-style: none;
+    display: flex; }
+    header nav ul li {
+      margin: 20px; }
+      header nav ul li a {
+        text-decoration: none;
+        color: orangered;
+        font-size: 16px; }
