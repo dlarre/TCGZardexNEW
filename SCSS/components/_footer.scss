@@ -1,0 +1,6 @@
+.boton {
+    background-color: map-get($boton, bg-boton);
+    border: map-get($boton, border-boton);
+    color: map-get($boton, color-text);
+
+}
