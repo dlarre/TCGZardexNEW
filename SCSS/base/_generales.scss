@@ -6,7 +6,13 @@
 }
 
 
+.coleccion {
+    background-color: white;
+    border: 2px black solid;
+    @extend %flex;
 
+
+}
 
 
 
