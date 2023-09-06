@@ -14,6 +14,9 @@
 
 }
 
+.recomendados {
+    @include flex (flex, space-around, center)
+}
 
 
 /*!-----------TIPOGRAFIA----------*/
