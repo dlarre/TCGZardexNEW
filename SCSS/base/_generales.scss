@@ -18,7 +18,15 @@
     @include flex (flex, space-around, center)
 }
 
+.formulario {
+    @include flex(flex, space-around, center)
+}
 
+.mapapokemon {
+    background-color: black;
+    border: 2px crimson solid;
+    @extend %flex
+}
 
 /*!-----------TIPOGRAFIA----------*/
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
